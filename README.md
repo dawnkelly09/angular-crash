@@ -1,5 +1,8 @@
 # AngularCrash
 
+This project was built while following along with Brad Traversy's Angular Crash [Course](https://www.youtube.com/watch?v=3dHNOWTI7H8)
+
+
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.4.
 
 ## Development server
