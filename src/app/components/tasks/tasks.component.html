@@ -1,0 +1,9 @@
+<app-add-task></app-add-task>
+<!--uses Directive ngFor to use a for loop
+to iterate over the array-->
+<app-task-item 
+    *ngFor="let task of tasks"
+    [task]="task"
+    (onDeleteTask)="deleteTask(task)"
+    (onToggleReminder)="toggleReminder(task)"
+></app-task-item>

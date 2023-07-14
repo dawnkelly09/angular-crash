@@ -1,0 +1,10 @@
+<!--this btn class is styled on global styling
+sheet styles.css -->
+<!--[ngStyle] directive allows inline styling by referencing  "{'desired-css-style : class}"-->
+<button 
+  [ngStyle]="{'background-color': color}" 
+  class="btn"
+  (click)="onClick()"
+  >
+    {{ text }}
+</button>
