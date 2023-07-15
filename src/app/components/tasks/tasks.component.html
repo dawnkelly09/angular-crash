@@ -1,4 +1,4 @@
-<app-add-task></app-add-task>
+<app-add-task (onAddTask)="addTask($event)"></app-add-task>
 <!--uses Directive ngFor to use a for loop
 to iterate over the array-->
 <app-task-item 
