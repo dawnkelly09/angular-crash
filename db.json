@@ -13,10 +13,10 @@
       "reminder": false
     },
     {
-      "id": 3,
-      "text": "Food Shopping",
-      "day": "May 7th at 12:30pm",
-      "reminder": false
+      "text": "Pick up Jackson",
+      "day": "July 14 at 3:30 pm",
+      "reminder": true,
+      "id": 4
     }
   ]
 }
